@@ -22,6 +22,7 @@ const App = ()=> {
 	  <Routes>
          <Route path="/" element={<News setProgress={setProgress} apiKey={apiKey} key="general" pageSize={pageSize} country = "in" category = "general"/>}/>
 		 <Route path="/newsapp" element={<News setProgress={setProgress} apiKey={apiKey} key="general" pageSize={pageSize} country = "in" category = "general"/>}/>
+		<Route path="/Inform" element={<News setProgress={setProgress} apiKey={apiKey} key="general" pageSize={pageSize} country = "in" category = "general"/>}/>
          {/* <Route path="/" element={<News country = "in" category = "general"/>}/> */}
 		 <Route path="/Inform" element={<News setProgress={setProgress} apiKey={apiKey} key="general" pageSize={pageSize} country = "in" category = "general"/>}/>
           <Route path="/General" element={<News setProgress={setProgress} apiKey={apiKey} key="general" pageSize={pageSize} country = "in"category = "general"/>}/>
